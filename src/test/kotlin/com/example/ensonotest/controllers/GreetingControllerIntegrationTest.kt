@@ -14,7 +14,7 @@ import org.springframework.test.web.servlet.get
     SpringExtension::class
 )
 @WebMvcTest(controllers = [GreetingController::class])
-internal class GreetingControllerTest {
+internal class GreetingControllerIntegrationTest {
     @Autowired
     private lateinit var mockMvc: MockMvc
 
